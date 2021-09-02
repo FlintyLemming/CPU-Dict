@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF799492663DD2C0013E2E3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF799482663DD2C0013E2E3 /* Tests_iOS.swift */; };
+		6AF799542663DD2C0013E2E3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF799532663DD2C0013E2E3 /* Tests_macOS.swift */; };
+		6AF799562663DD2C0013E2E3 /* CPU_DictApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7992D2663DD2A0013E2E3 /* CPU_DictApp.swift */; };
+		6AF799572663DD2C0013E2E3 /* CPU_DictApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7992D2663DD2A0013E2E3 /* CPU_DictApp.swift */; };
+		6AF799582663DD2C0013E2E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7992E2663DD2A0013E2E3 /* ContentView.swift */; };
+		6AF799592663DD2C0013E2E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7992E2663DD2A0013E2E3 /* ContentView.swift */; };
+		6AF7995A2663DD2C0013E2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF7992F2663DD2C0013E2E3 /* Assets.xcassets */; };
+		6AF7995B2663DD2C0013E2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF7992F2663DD2C0013E2E3 /* Assets.xcassets */; };
+		6AF7996B2663E1AC0013E2E3 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7996A2663E1AC0013E2E3 /* StarView.swift */; };
+		6AF7996C2663E1AC0013E2E3 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7996A2663E1AC0013E2E3 /* StarView.swift */; };
+		6AF7996E2663E1FB0013E2E3 /* IntelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7996D2663E1FB0013E2E3 /* IntelView.swift */; };
+		6AF7996F2663E1FB0013E2E3 /* IntelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7996D2663E1FB0013E2E3 /* IntelView.swift */; };
+		6AF799772663EADF0013E2E3 /* AMDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF799762663EADF0013E2E3 /* AMDView.swift */; };
+		6AF799782663EADF0013E2E3 /* AMDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF799762663EADF0013E2E3 /* AMDView.swift */; };
+		6AF7997A2663EB980013E2E3 /* intelcpus.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AF799792663EB980013E2E3 /* intelcpus.json */; };
+		6AF7997B2663EB980013E2E3 /* intelcpus.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AF799792663EB980013E2E3 /* intelcpus.json */; };
+		6AF7997D2663EC5B0013E2E3 /* IntelCPUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7997C2663EC5B0013E2E3 /* IntelCPUs.swift */; };
+		6AF7997E2663EC5B0013E2E3 /* IntelCPUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7997C2663EC5B0013E2E3 /* IntelCPUs.swift */; };
+		6AF799802663F34F0013E2E3 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7997F2663F34F0013E2E3 /* Bundle-Decodable.swift */; };
+		6AF799812663F34F0013E2E3 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7997F2663F34F0013E2E3 /* Bundle-Decodable.swift */; };
+		6AF799882663F86F0013E2E3 /* amdcpus.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AF799872663F86F0013E2E3 /* amdcpus.json */; };
+		6AF799892663F86F0013E2E3 /* amdcpus.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AF799872663F86F0013E2E3 /* amdcpus.json */; };
+		6AF7998B2663F9730013E2E3 /* AMDDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7998A2663F9730013E2E3 /* AMDDetailView.swift */; };
+		6AF7998C2663F9730013E2E3 /* AMDDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7998A2663F9730013E2E3 /* AMDDetailView.swift */; };
+		6AF7998E2663FB440013E2E3 /* AMDCPUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7998D2663FB440013E2E3 /* AMDCPUs.swift */; };
+		6AF7998F2663FB440013E2E3 /* AMDCPUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7998D2663FB440013E2E3 /* AMDCPUs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AF799452663DD2C0013E2E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AF799282663DD2A0013E2E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF799332663DD2C0013E2E3;
+			remoteInfo = "CPU Dict (iOS)";
+		};
+		6AF799502663DD2C0013E2E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AF799282663DD2A0013E2E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF7993B2663DD2C0013E2E3;
+			remoteInfo = "CPU Dict (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AF7992D2663DD2A0013E2E3 /* CPU_DictApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPU_DictApp.swift; sourceTree = "<group>"; };
+		6AF7992E2663DD2A0013E2E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AF7992F2663DD2C0013E2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AF799342663DD2C0013E2E3 /* CPU Dict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPU Dict.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF799372663DD2C0013E2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF7993C2663DD2C0013E2E3 /* CPU Dict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPU Dict.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF7993E2663DD2C0013E2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF7993F2663DD2C0013E2E3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6AF799442663DD2C0013E2E3 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF799482663DD2C0013E2E3 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		6AF7994A2663DD2C0013E2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF7994F2663DD2C0013E2E3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF799532663DD2C0013E2E3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		6AF799552663DD2C0013E2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF7996A2663E1AC0013E2E3 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		6AF7996D2663E1FB0013E2E3 /* IntelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelView.swift; sourceTree = "<group>"; };
+		6AF799762663EADF0013E2E3 /* AMDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDView.swift; sourceTree = "<group>"; };
+		6AF799792663EB980013E2E3 /* intelcpus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = intelcpus.json; path = "../../Downloads/iOS13-SwiftUI一网打尽/8-神舟App-处理json数据和页面布局（素材）/8-8素材/ShenZhou-完成版/ShenZhou/intelcpus.json"; sourceTree = "<group>"; };
+		6AF7997C2663EC5B0013E2E3 /* IntelCPUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelCPUs.swift; sourceTree = "<group>"; };
+		6AF7997F2663F34F0013E2E3 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		6AF799872663F86F0013E2E3 /* amdcpus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = amdcpus.json; sourceTree = "<group>"; };
+		6AF7998A2663F9730013E2E3 /* AMDDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDDetailView.swift; sourceTree = "<group>"; };
+		6AF7998D2663FB440013E2E3 /* AMDCPUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDCPUs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AF799312663DD2C0013E2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF799392663DD2C0013E2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF799412663DD2C0013E2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF7994C2663DD2C0013E2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF799272663DD2A0013E2E3 = {
+			isa = PBXGroup;
+			children = (
+				6AF7992C2663DD2A0013E2E3 /* Shared */,
+				6AF799362663DD2C0013E2E3 /* iOS */,
+				6AF7993D2663DD2C0013E2E3 /* macOS */,
+				6AF799472663DD2C0013E2E3 /* Tests iOS */,
+				6AF799522663DD2C0013E2E3 /* Tests macOS */,
+				6AF799352663DD2C0013E2E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF7992C2663DD2A0013E2E3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6AF7992D2663DD2A0013E2E3 /* CPU_DictApp.swift */,
+				6AF7992E2663DD2A0013E2E3 /* ContentView.swift */,
+				6AF7992F2663DD2C0013E2E3 /* Assets.xcassets */,
+				6AF7996A2663E1AC0013E2E3 /* StarView.swift */,
+				6AF7996D2663E1FB0013E2E3 /* IntelView.swift */,
+				6AF799762663EADF0013E2E3 /* AMDView.swift */,
+				6AF799792663EB980013E2E3 /* intelcpus.json */,
+				6AF7997C2663EC5B0013E2E3 /* IntelCPUs.swift */,
+				6AF7997F2663F34F0013E2E3 /* Bundle-Decodable.swift */,
+				6AF799872663F86F0013E2E3 /* amdcpus.json */,
+				6AF7998A2663F9730013E2E3 /* AMDDetailView.swift */,
+				6AF7998D2663FB440013E2E3 /* AMDCPUs.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6AF799352663DD2C0013E2E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF799342663DD2C0013E2E3 /* CPU Dict.app */,
+				6AF7993C2663DD2C0013E2E3 /* CPU Dict.app */,
+				6AF799442663DD2C0013E2E3 /* Tests iOS.xctest */,
+				6AF7994F2663DD2C0013E2E3 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF799362663DD2C0013E2E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6AF799372663DD2C0013E2E3 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6AF7993D2663DD2C0013E2E3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6AF7993E2663DD2C0013E2E3 /* Info.plist */,
+				6AF7993F2663DD2C0013E2E3 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6AF799472663DD2C0013E2E3 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6AF799482663DD2C0013E2E3 /* Tests_iOS.swift */,
+				6AF7994A2663DD2C0013E2E3 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		6AF799522663DD2C0013E2E3 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6AF799532663DD2C0013E2E3 /* Tests_macOS.swift */,
+				6AF799552663DD2C0013E2E3 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF799332663DD2C0013E2E3 /* CPU Dict (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF7995E2663DD2C0013E2E3 /* Build configuration list for PBXNativeTarget "CPU Dict (iOS)" */;
+			buildPhases = (
+				6AF799302663DD2C0013E2E3 /* Sources */,
+				6AF799312663DD2C0013E2E3 /* Frameworks */,
+				6AF799322663DD2C0013E2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPU Dict (iOS)";
+			productName = "CPU Dict (iOS)";
+			productReference = 6AF799342663DD2C0013E2E3 /* CPU Dict.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AF7993B2663DD2C0013E2E3 /* CPU Dict (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF799612663DD2C0013E2E3 /* Build configuration list for PBXNativeTarget "CPU Dict (macOS)" */;
+			buildPhases = (
+				6AF799382663DD2C0013E2E3 /* Sources */,
+				6AF799392663DD2C0013E2E3 /* Frameworks */,
+				6AF7993A2663DD2C0013E2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPU Dict (macOS)";
+			productName = "CPU Dict (macOS)";
+			productReference = 6AF7993C2663DD2C0013E2E3 /* CPU Dict.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AF799432663DD2C0013E2E3 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF799642663DD2C0013E2E3 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				6AF799402663DD2C0013E2E3 /* Sources */,
+				6AF799412663DD2C0013E2E3 /* Frameworks */,
+				6AF799422663DD2C0013E2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AF799462663DD2C0013E2E3 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 6AF799442663DD2C0013E2E3 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6AF7994E2663DD2C0013E2E3 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF799672663DD2C0013E2E3 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				6AF7994B2663DD2C0013E2E3 /* Sources */,
+				6AF7994C2663DD2C0013E2E3 /* Frameworks */,
+				6AF7994D2663DD2C0013E2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AF799512663DD2C0013E2E3 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 6AF7994F2663DD2C0013E2E3 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF799282663DD2A0013E2E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6AF799332663DD2C0013E2E3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6AF7993B2663DD2C0013E2E3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6AF799432663DD2C0013E2E3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6AF799332663DD2C0013E2E3;
+					};
+					6AF7994E2663DD2C0013E2E3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6AF7993B2663DD2C0013E2E3;
+					};
+				};
+			};
+			buildConfigurationList = 6AF7992B2663DD2A0013E2E3 /* Build configuration list for PBXProject "CPU Dict" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AF799272663DD2A0013E2E3;
+			productRefGroup = 6AF799352663DD2C0013E2E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF799332663DD2C0013E2E3 /* CPU Dict (iOS) */,
+				6AF7993B2663DD2C0013E2E3 /* CPU Dict (macOS) */,
+				6AF799432663DD2C0013E2E3 /* Tests iOS */,
+				6AF7994E2663DD2C0013E2E3 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AF799322663DD2C0013E2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF799882663F86F0013E2E3 /* amdcpus.json in Resources */,
+				6AF7997A2663EB980013E2E3 /* intelcpus.json in Resources */,
+				6AF7995A2663DD2C0013E2E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF7993A2663DD2C0013E2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF799892663F86F0013E2E3 /* amdcpus.json in Resources */,
+				6AF7997B2663EB980013E2E3 /* intelcpus.json in Resources */,
+				6AF7995B2663DD2C0013E2E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF799422663DD2C0013E2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF7994D2663DD2C0013E2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AF799302663DD2C0013E2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF799772663EADF0013E2E3 /* AMDView.swift in Sources */,
+				6AF7996B2663E1AC0013E2E3 /* StarView.swift in Sources */,
+				6AF7996E2663E1FB0013E2E3 /* IntelView.swift in Sources */,
+				6AF7997D2663EC5B0013E2E3 /* IntelCPUs.swift in Sources */,
+				6AF7998E2663FB440013E2E3 /* AMDCPUs.swift in Sources */,
+				6AF799582663DD2C0013E2E3 /* ContentView.swift in Sources */,
+				6AF799802663F34F0013E2E3 /* Bundle-Decodable.swift in Sources */,
+				6AF7998B2663F9730013E2E3 /* AMDDetailView.swift in Sources */,
+				6AF799562663DD2C0013E2E3 /* CPU_DictApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF799382663DD2C0013E2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF799782663EADF0013E2E3 /* AMDView.swift in Sources */,
+				6AF7996C2663E1AC0013E2E3 /* StarView.swift in Sources */,
+				6AF7996F2663E1FB0013E2E3 /* IntelView.swift in Sources */,
+				6AF7997E2663EC5B0013E2E3 /* IntelCPUs.swift in Sources */,
+				6AF7998F2663FB440013E2E3 /* AMDCPUs.swift in Sources */,
+				6AF799592663DD2C0013E2E3 /* ContentView.swift in Sources */,
+				6AF799812663F34F0013E2E3 /* Bundle-Decodable.swift in Sources */,
+				6AF7998C2663F9730013E2E3 /* AMDDetailView.swift in Sources */,
+				6AF799572663DD2C0013E2E3 /* CPU_DictApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF799402663DD2C0013E2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF799492663DD2C0013E2E3 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF7994B2663DD2C0013E2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF799542663DD2C0013E2E3 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AF799462663DD2C0013E2E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AF799332663DD2C0013E2E3 /* CPU Dict (iOS) */;
+			targetProxy = 6AF799452663DD2C0013E2E3 /* PBXContainerItemProxy */;
+		};
+		6AF799512663DD2C0013E2E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AF7993B2663DD2C0013E2E3 /* CPU Dict (macOS) */;
+			targetProxy = 6AF799502663DD2C0013E2E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AF7995C2663DD2C0013E2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AF7995D2663DD2C0013E2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6AF7995F2663DD2C0013E2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJ9MHAPR4U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.flinty.CPU-Dict";
+				PRODUCT_NAME = "CPU Dict";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AF799602663DD2C0013E2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJ9MHAPR4U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.flinty.CPU-Dict";
+				PRODUCT_NAME = "CPU Dict";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AF799622663DD2C0013E2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AJ9MHAPR4U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.flinty.CPU-Dict";
+				PRODUCT_NAME = "CPU Dict";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6AF799632663DD2C0013E2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AJ9MHAPR4U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.flinty.CPU-Dict";
+				PRODUCT_NAME = "CPU Dict";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6AF799652663DD2C0013E2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJ9MHAPR4U;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.flinty.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CPU Dict (iOS)";
+			};
+			name = Debug;
+		};
+		6AF799662663DD2C0013E2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJ9MHAPR4U;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.flinty.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CPU Dict (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AF799682663DD2C0013E2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AJ9MHAPR4U;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.flinty.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CPU Dict (macOS)";
+			};
+			name = Debug;
+		};
+		6AF799692663DD2C0013E2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AJ9MHAPR4U;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.flinty.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CPU Dict (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AF7992B2663DD2A0013E2E3 /* Build configuration list for PBXProject "CPU Dict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF7995C2663DD2C0013E2E3 /* Debug */,
+				6AF7995D2663DD2C0013E2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF7995E2663DD2C0013E2E3 /* Build configuration list for PBXNativeTarget "CPU Dict (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF7995F2663DD2C0013E2E3 /* Debug */,
+				6AF799602663DD2C0013E2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF799612663DD2C0013E2E3 /* Build configuration list for PBXNativeTarget "CPU Dict (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF799622663DD2C0013E2E3 /* Debug */,
+				6AF799632663DD2C0013E2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF799642663DD2C0013E2E3 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF799652663DD2C0013E2E3 /* Debug */,
+				6AF799662663DD2C0013E2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF799672663DD2C0013E2E3 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF799682663DD2C0013E2E3 /* Debug */,
+				6AF799692663DD2C0013E2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AF799282663DD2A0013E2E3 /* Project object */;
+}
